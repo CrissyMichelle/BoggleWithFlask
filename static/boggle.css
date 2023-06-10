@@ -1,0 +1,26 @@
+body {
+    background-color: linear-gradient(olive, yellow);
+}
+
+.board {
+    border: solid 1px black;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+.board td {
+    text-align: center;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.msg.ok {
+    color: white;
+    background-color: green;
+}
+
+.msg.err {
+    color: white;
+    background-color: darkmagenta;
+}
